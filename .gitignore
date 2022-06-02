@@ -9,6 +9,6 @@ mediaSend/*
 !mediaSend/.gitkeep
 !mediaSend/Flyer.jpeg
 !mediaSend/catalogo.pdf
-!mediaSend/Evento2.jpeg
+!mediaSend/Evento2.png
 .env
 .wwebjs_auth
