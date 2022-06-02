@@ -94,11 +94,11 @@ const listenMessage = () => client.on('message', async msg => {
 
         await sendMessage(client, from, response.replyMessage, response.trigger);
 
-        if(response.hasOwnProperty('actions')){
+       /*  if(response.hasOwnProperty('actions')){
             const { actions } = response;
             await sendMessageButton(client, from, null, actions);
             return
-        }
+        } */
 
         if (!response.delay && response.media) {
             sendMedia(client, from, response.media);

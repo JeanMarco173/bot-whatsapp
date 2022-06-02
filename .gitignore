@@ -7,6 +7,8 @@ media/*
 !media/.gitkeep
 mediaSend/*
 !mediaSend/.gitkeep
-!mediaSend/nota-de-voz.mp3
+!mediaSend/Flyer.jpeg
+!mediaSend/catalogo.pdf
+!mediaSend/Evento2.jpeg
 .env
 .wwebjs_auth
